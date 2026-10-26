@@ -1,5 +1,13 @@
 [
  {
+  "slug": "suecia-chatgpt-claude-gobierno",
+  "titulo": "Suecia cierra la puerta a ChatGPT y Claude en las computadoras del gobierno: solo queda Copilot",
+  "resumen": "Desde el 26 de octubre, las Oficinas del Gobierno de Suecia bloquearon las webs de ChatGPT y Claude en los equipos de trabajo: el personal debe usar Microsoft Copilot, la única herramienta aprobada tras una revisión de seguridad. No es un veto a los modelos, sino al acceso sin contrato.",
+  "categoria": "Inteligencia artificial",
+  "fecha": "2026-10-26",
+  "url": "articulos/suecia-chatgpt-claude-gobierno.html"
+ },
+ {
   "slug": "walmart-agentes-ia-compras",
   "titulo": "Walmart deja que la IA haga tu compra y Amazon le cierra la puerta",
   "resumen": "Walmart anunció su Agent Gateway para que agentes de IA aprobados compren en su tienda y en Sam's Club, con perfiles separados y límites de gasto que tú controlas. Amazon, en cambio, bloquea a los agentes de terceros. Dos gigantes, dos apuestas opuestas sobre quién hará tus compras.",
