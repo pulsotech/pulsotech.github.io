@@ -1,5 +1,13 @@
 [
  {
+  "slug": "openai-gpt-61-terra",
+  "titulo": "OpenAI presenta GPT-6.1 Terra: la IA que usa tu computadora y se equivoca mucho menos",
+  "resumen": "OpenAI presentó el 26 de octubre GPT-6.1 Terra, su modelo eficiente que entiende lo que aparece en pantalla, hace tareas en las aplicaciones y comete muchos menos errores que su antecesor, a mitad de precio en la API.",
+  "categoria": "Inteligencia artificial",
+  "fecha": "2026-10-27",
+  "url": "articulos/openai-gpt-61-terra.html"
+ },
+ {
   "slug": "suecia-chatgpt-claude-gobierno",
   "titulo": "Suecia cierra la puerta a ChatGPT y Claude en las computadoras del gobierno: solo queda Copilot",
   "resumen": "Desde el 26 de octubre, las Oficinas del Gobierno de Suecia bloquearon las webs de ChatGPT y Claude en los equipos de trabajo: el personal debe usar Microsoft Copilot, la única herramienta aprobada tras una revisión de seguridad. No es un veto a los modelos, sino al acceso sin contrato.",
