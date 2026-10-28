@@ -1,5 +1,13 @@
 [
  {
+  "slug": "nvidia-invierte-meta-muse",
+  "titulo": "Nvidia pone 3.000 millones en Meta: el fabricante de chips se convierte en socio de su gran cliente",
+  "resumen": "Nvidia invertirá 3.000 millones de dólares en Meta dentro de su plan para captar hasta 95.000 millones y financiar su infraestructura de inteligencia artificial. El objetivo es impulsar Muse, el agente de IA con el que Meta quiere llegar a miles de millones de personas.",
+  "categoria": "Inteligencia artificial",
+  "fecha": "2026-10-28",
+  "url": "articulos/nvidia-invierte-meta-muse.html"
+ },
+ {
   "slug": "openai-gpt-61-terra",
   "titulo": "OpenAI presenta GPT-6.1 Terra: la IA que usa tu computadora y se equivoca mucho menos",
   "resumen": "OpenAI presentó el 26 de octubre GPT-6.1 Terra, su modelo eficiente que entiende lo que aparece en pantalla, hace tareas en las aplicaciones y comete muchos menos errores que su antecesor, a mitad de precio en la API.",
