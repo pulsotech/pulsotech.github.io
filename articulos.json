@@ -1,5 +1,13 @@
 [
  {
+  "slug": "google-gemini-4-carbon",
+  "titulo": "Google presenta Gemini 4 Carbon: la IA que caza fallos de seguridad antes que los hackers",
+  "resumen": "Google presentó Gemini 4 Carbon, su nuevo modelo de frontera especializado en ciberseguridad: detecta vulnerabilidades reales con un 88,2 % en SEC-bench Pro y lidera el Artificial Analysis Intelligence Index, pero su lanzamiento será gradual, primero solo para expertos en ciberdefensa.",
+  "categoria": "Inteligencia artificial",
+  "fecha": "2026-10-29",
+  "url": "articulos/google-gemini-4-carbon.html"
+ },
+ {
   "slug": "nvidia-invierte-meta-muse",
   "titulo": "Nvidia pone 3.000 millones en Meta: el fabricante de chips se convierte en socio de su gran cliente",
   "resumen": "Nvidia invertirá 3.000 millones de dólares en Meta dentro de su plan para captar hasta 95.000 millones y financiar su infraestructura de inteligencia artificial. El objetivo es impulsar Muse, el agente de IA con el que Meta quiere llegar a miles de millones de personas.",
