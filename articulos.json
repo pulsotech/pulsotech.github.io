@@ -1,5 +1,13 @@
 [
  {
+  "slug": "macbook-pro-pantalla-tactil",
+  "titulo": "Apple rompe su regla de oro: la primera MacBook con pantalla táctil llega el 6 de noviembre",
+  "resumen": "Apple presentó el 28 de octubre su primera Mac con pantalla táctil: la MacBook Pro con pantalla PROLED XDR, en 14 y 16 pulgadas, con chips M5 Pro o M5 Max, Dynamic Island y hasta 24 horas de batería. Llega a tiendas el 6 de noviembre desde 2.899 dólares.",
+  "categoria": "Computadoras",
+  "fecha": "2026-10-30",
+  "url": "articulos/macbook-pro-pantalla-tactil.html"
+ },
+ {
   "slug": "google-gemini-4-carbon",
   "titulo": "Google presenta Gemini 4 Carbon: la IA que caza fallos de seguridad antes que los hackers",
   "resumen": "Google presentó Gemini 4 Carbon, su nuevo modelo de frontera especializado en ciberseguridad: detecta vulnerabilidades reales con un 88,2 % en SEC-bench Pro y lidera el Artificial Analysis Intelligence Index, pero su lanzamiento será gradual, primero solo para expertos en ciberdefensa.",
