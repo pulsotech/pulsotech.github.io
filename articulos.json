@@ -1,98 +1,106 @@
 [
- {
-  "slug": "macbook-pro-pantalla-tactil",
-  "titulo": "Apple rompe su regla de oro: la primera MacBook con pantalla táctil llega el 6 de noviembre",
-  "resumen": "Apple presentó el 28 de octubre su primera Mac con pantalla táctil: la MacBook Pro con pantalla PROLED XDR, en 14 y 16 pulgadas, con chips M5 Pro o M5 Max, Dynamic Island y hasta 24 horas de batería. Llega a tiendas el 6 de noviembre desde 2.899 dólares.",
-  "categoria": "Computadoras",
-  "fecha": "2026-10-30",
-  "url": "articulos/macbook-pro-pantalla-tactil.html"
- },
- {
-  "slug": "google-gemini-4-carbon",
-  "titulo": "Google presenta Gemini 4 Carbon: la IA que caza fallos de seguridad antes que los hackers",
-  "resumen": "Google presentó Gemini 4 Carbon, su nuevo modelo de frontera especializado en ciberseguridad: detecta vulnerabilidades reales con un 88,2 % en SEC-bench Pro y lidera el Artificial Analysis Intelligence Index, pero su lanzamiento será gradual, primero solo para expertos en ciberdefensa.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-29",
-  "url": "articulos/google-gemini-4-carbon.html"
- },
- {
-  "slug": "nvidia-invierte-meta-muse",
-  "titulo": "Nvidia pone 3.000 millones en Meta: el fabricante de chips se convierte en socio de su gran cliente",
-  "resumen": "Nvidia invertirá 3.000 millones de dólares en Meta dentro de su plan para captar hasta 95.000 millones y financiar su infraestructura de inteligencia artificial. El objetivo es impulsar Muse, el agente de IA con el que Meta quiere llegar a miles de millones de personas.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-28",
-  "url": "articulos/nvidia-invierte-meta-muse.html"
- },
- {
-  "slug": "openai-gpt-61-terra",
-  "titulo": "OpenAI presenta GPT-6.1 Terra: la IA que usa tu computadora y se equivoca mucho menos",
-  "resumen": "OpenAI presentó el 26 de octubre GPT-6.1 Terra, su modelo eficiente que entiende lo que aparece en pantalla, hace tareas en las aplicaciones y comete muchos menos errores que su antecesor, a mitad de precio en la API.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-27",
-  "url": "articulos/openai-gpt-61-terra.html"
- },
- {
-  "slug": "suecia-chatgpt-claude-gobierno",
-  "titulo": "Suecia cierra la puerta a ChatGPT y Claude en las computadoras del gobierno: solo queda Copilot",
-  "resumen": "Desde el 26 de octubre, las Oficinas del Gobierno de Suecia bloquearon las webs de ChatGPT y Claude en los equipos de trabajo: el personal debe usar Microsoft Copilot, la única herramienta aprobada tras una revisión de seguridad. No es un veto a los modelos, sino al acceso sin contrato.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-26",
-  "url": "articulos/suecia-chatgpt-claude-gobierno.html"
- },
- {
-  "slug": "walmart-agentes-ia-compras",
-  "titulo": "Walmart deja que la IA haga tu compra y Amazon le cierra la puerta",
-  "resumen": "Walmart anunció su Agent Gateway para que agentes de IA aprobados compren en su tienda y en Sam's Club, con perfiles separados y límites de gasto que tú controlas. Amazon, en cambio, bloquea a los agentes de terceros. Dos gigantes, dos apuestas opuestas sobre quién hará tus compras.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-25",
-  "url": "articulos/walmart-agentes-ia-compras.html"
- },
- {
-  "slug": "iphone-duo-llega-tiendas",
-  "titulo": "El iPhone plegable llegó a las tiendas y se agotó en horas: así fue el estreno del iPhone Duo",
-  "resumen": "Apple puso a la venta el iPhone Duo, su primer teléfono plegable, el 23 de octubre de 2026: las reservas se agotaron en minutos, las filas volvieron a las Apple Store y las entregas en línea ya van por enero de 2027.",
-  "categoria": "Móviles",
-  "fecha": "2026-10-24",
-  "url": "articulos/iphone-duo-llega-tiendas.html"
- },
- {
-  "slug": "php2shell-falla-critica",
-  "titulo": "PHP2Shell: la falla crítica que puso a medio internet a correr a parchear sus páginas",
-  "resumen": "El equipo de PHP publicó parches de emergencia para dos vulnerabilidades críticas, bautizadas PHP2Shell, que permiten tomar el control de un servidor con una sola petición. Gobiernos desconectaron sus páginas y el FBI recomendó hacer lo mismo.",
-  "categoria": "Ciberseguridad",
-  "fecha": "2026-10-22",
-  "url": "articulos/php2shell-falla-critica.html"
- },
- {
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-19",
-  "resumen": "El Departamento de Seguridad Nacional prohibió a todas las agencias civiles federales usar productos de DeepSeek: nada de compras nuevas, hay que desinstalar lo ya instalado, y el veto alcanza incluso a herramientas de terceros construidas sobre sus modelos.",
-  "slug": "deepseek-veto-eeuu",
-  "titulo": "Washington le cierra la puerta a DeepSeek: la IA china queda vetada en las agencias federales de EE. UU.",
-  "url": "articulos/deepseek-veto-eeuu.html"
- },
- {
-  "slug": "whatsapp-llamadas-invitados",
-  "titulo": "Ya puedes invitar a quien sea a una videollamada de WhatsApp, aunque no tenga la aplicación",
-  "resumen": "Las nuevas llamadas para invitados de WhatsApp permiten que cualquier persona entre a una llamada o videollamada desde el navegador, sin tener cuenta ni la aplicación instalada: el anfitrión crea un enlace, aprueba quién entra y la conversación queda cifrada de extremo a extremo.",
-  "categoria": "Apps",
-  "fecha": "2026-10-20",
-  "url": "articulos/whatsapp-llamadas-invitados.html"
- },
- {
-  "slug": "microsoft-guardian-agents",
-  "titulo": "Microsoft pone a una IA a vigilar a las otras: llegan los Guardian Agents",
-  "resumen": "Microsoft anunció el 19 de octubre los Guardian Agents: agentes de inteligencia artificial que supervisan 24/7 a los demás agentes de la empresa, calculan su riesgo en tiempo real y pueden quitarles permisos o pedir aprobación humana si algo se sale de control.",
-  "categoria": "Inteligencia artificial",
-  "fecha": "2026-10-21",
-  "url": "articulos/microsoft-guardian-agents.html"
- },
- {
-  "slug": "nintendo-switch-2-jailbreak-software",
-  "titulo": "Hackearon la Nintendo Switch 2 sin abrirla: el primer jailbreak por software ya está aquí",
-  "resumen": "El investigador Sammy Hajhamid publicó ns2jb, el primer jailbreak basado solo en software para la Nintendo Switch 2. La vulnerabilidad la encontró la IA Codex de OpenAI dentro de SmileBASIC 4: funciona en el firmware 23.0.1 y ya corre homebrew y mods de Mario Kart World.",
-  "categoria": "Videojuegos",
-  "fecha": "2026-10-23",
-  "url": "articulos/nintendo-switch-2-jailbreak-software.html"
- }
+  {
+    "slug": "macbook-pro-pantalla-tactil",
+    "titulo": "Apple rompe su regla de oro: la primera MacBook con pantalla táctil llega el 6 de noviembre",
+    "resumen": "Apple presentó el 28 de octubre su primera Mac con pantalla táctil: la MacBook Pro con pantalla PROLED XDR, en 14 y 16 pulgadas, con chips M5 Pro o M5 Max, Dynamic Island y hasta 24 horas de batería. Llega a tiendas el 6 de noviembre desde 2.899 dólares.",
+    "categoria": "Computadoras",
+    "fecha": "2026-10-30",
+    "url": "articulos/macbook-pro-pantalla-tactil.html"
+  },
+  {
+    "slug": "google-gemini-4-carbon",
+    "titulo": "Google presenta Gemini 4 Carbon: la IA que caza fallos de seguridad antes que los hackers",
+    "resumen": "Google presentó Gemini 4 Carbon, su nuevo modelo de frontera especializado en ciberseguridad: detecta vulnerabilidades reales con un 88,2 % en SEC-bench Pro y lidera el Artificial Analysis Intelligence Index, pero su lanzamiento será gradual, primero solo para expertos en ciberdefensa.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-29",
+    "url": "articulos/google-gemini-4-carbon.html"
+  },
+  {
+    "slug": "nvidia-invierte-meta-muse",
+    "titulo": "Nvidia pone 3.000 millones en Meta: el fabricante de chips se convierte en socio de su gran cliente",
+    "resumen": "Nvidia invertirá 3.000 millones de dólares en Meta dentro de su plan para captar hasta 95.000 millones y financiar su infraestructura de inteligencia artificial. El objetivo es impulsar Muse, el agente de IA con el que Meta quiere llegar a miles de millones de personas.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-28",
+    "url": "articulos/nvidia-invierte-meta-muse.html"
+  },
+  {
+    "slug": "openai-gpt-61-terra",
+    "titulo": "OpenAI presenta GPT-6.1 Terra: la IA que usa tu computadora y se equivoca mucho menos",
+    "resumen": "OpenAI presentó el 26 de octubre GPT-6.1 Terra, su modelo eficiente que entiende lo que aparece en pantalla, hace tareas en las aplicaciones y comete muchos menos errores que su antecesor, a mitad de precio en la API.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-27",
+    "url": "articulos/openai-gpt-61-terra.html"
+  },
+  {
+    "slug": "suecia-chatgpt-claude-gobierno",
+    "titulo": "Suecia cierra la puerta a ChatGPT y Claude en las computadoras del gobierno: solo queda Copilot",
+    "resumen": "Desde el 26 de octubre, las Oficinas del Gobierno de Suecia bloquearon las webs de ChatGPT y Claude en los equipos de trabajo: el personal debe usar Microsoft Copilot, la única herramienta aprobada tras una revisión de seguridad. No es un veto a los modelos, sino al acceso sin contrato.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-26",
+    "url": "articulos/suecia-chatgpt-claude-gobierno.html"
+  },
+  {
+    "slug": "walmart-agentes-ia-compras",
+    "titulo": "Walmart deja que la IA haga tu compra y Amazon le cierra la puerta",
+    "resumen": "Walmart anunció su Agent Gateway para que agentes de IA aprobados compren en su tienda y en Sam's Club, con perfiles separados y límites de gasto que tú controlas. Amazon, en cambio, bloquea a los agentes de terceros. Dos gigantes, dos apuestas opuestas sobre quién hará tus compras.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-25",
+    "url": "articulos/walmart-agentes-ia-compras.html"
+  },
+  {
+    "slug": "iphone-duo-llega-tiendas",
+    "titulo": "El iPhone plegable llegó a las tiendas y se agotó en horas: así fue el estreno del iPhone Duo",
+    "resumen": "Apple puso a la venta el iPhone Duo, su primer teléfono plegable, el 23 de octubre de 2026: las reservas se agotaron en minutos, las filas volvieron a las Apple Store y las entregas en línea ya van por enero de 2027.",
+    "categoria": "Móviles",
+    "fecha": "2026-10-24",
+    "url": "articulos/iphone-duo-llega-tiendas.html"
+  },
+  {
+    "slug": "php2shell-falla-critica",
+    "titulo": "PHP2Shell: la falla crítica que puso a medio internet a correr a parchear sus páginas",
+    "resumen": "El equipo de PHP publicó parches de emergencia para dos vulnerabilidades críticas, bautizadas PHP2Shell, que permiten tomar el control de un servidor con una sola petición. Gobiernos desconectaron sus páginas y el FBI recomendó hacer lo mismo.",
+    "categoria": "Ciberseguridad",
+    "fecha": "2026-10-22",
+    "url": "articulos/php2shell-falla-critica.html"
+  },
+  {
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-19",
+    "resumen": "El Departamento de Seguridad Nacional prohibió a todas las agencias civiles federales usar productos de DeepSeek: nada de compras nuevas, hay que desinstalar lo ya instalado, y el veto alcanza incluso a herramientas de terceros construidas sobre sus modelos.",
+    "slug": "deepseek-veto-eeuu",
+    "titulo": "Washington le cierra la puerta a DeepSeek: la IA china queda vetada en las agencias federales de EE. UU.",
+    "url": "articulos/deepseek-veto-eeuu.html"
+  },
+  {
+    "slug": "whatsapp-llamadas-invitados",
+    "titulo": "Ya puedes invitar a quien sea a una videollamada de WhatsApp, aunque no tenga la aplicación",
+    "resumen": "Las nuevas llamadas para invitados de WhatsApp permiten que cualquier persona entre a una llamada o videollamada desde el navegador, sin tener cuenta ni la aplicación instalada: el anfitrión crea un enlace, aprueba quién entra y la conversación queda cifrada de extremo a extremo.",
+    "categoria": "Apps",
+    "fecha": "2026-10-20",
+    "url": "articulos/whatsapp-llamadas-invitados.html"
+  },
+  {
+    "slug": "microsoft-guardian-agents",
+    "titulo": "Microsoft pone a una IA a vigilar a las otras: llegan los Guardian Agents",
+    "resumen": "Microsoft anunció el 19 de octubre los Guardian Agents: agentes de inteligencia artificial que supervisan 24/7 a los demás agentes de la empresa, calculan su riesgo en tiempo real y pueden quitarles permisos o pedir aprobación humana si algo se sale de control.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-21",
+    "url": "articulos/microsoft-guardian-agents.html"
+  },
+  {
+    "slug": "nintendo-switch-2-jailbreak-software",
+    "titulo": "Hackearon la Nintendo Switch 2 sin abrirla: el primer jailbreak por software ya está aquí",
+    "resumen": "El investigador Sammy Hajhamid publicó ns2jb, el primer jailbreak basado solo en software para la Nintendo Switch 2. La vulnerabilidad la encontró la IA Codex de OpenAI dentro de SmileBASIC 4: funciona en el firmware 23.0.1 y ya corre homebrew y mods de Mario Kart World.",
+    "categoria": "Videojuegos",
+    "fecha": "2026-10-23",
+    "url": "articulos/nintendo-switch-2-jailbreak-software.html"
+  },
+  {
+    "slug": "wall-street-factura-fiesta-ia",
+    "titulo": "Wall Street le pasa factura a la fiesta de la IA: Intel se desploma, el Nasdaq cae y Apple recupera la corona",
+    "resumen": "El Nasdaq sufrió el viernes 30 de octubre su peor jornada desde junio (-2,86 %): Intel se desplomó casi un 29 % y Amazon decepcionó con sus resultados, mientras Apple recuperaba el título de empresa más valiosa del mundo. No es el fin de la IA, es un cambio de exigencia: ahora tiene que demostrar que gana dinero.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-10-31",
+    "url": "articulos/wall-street-factura-fiesta-ia.html"
+  }
 ]
