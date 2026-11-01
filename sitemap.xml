@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pulsotech.github.io/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
   </url>
   <url>
     <loc>https://pulsotech.github.io/articulos/microsoft-guardian-agents.html</loc>
@@ -55,5 +55,9 @@
   <url>
     <loc>https://pulsotech.github.io/articulos/wall-street-factura-fiesta-ia.html</loc>
     <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://pulsotech.github.io/articulos/apple-intelligence-china-qwen.html</loc>
+    <lastmod>2026-11-01</lastmod>
   </url>
 </urlset>
