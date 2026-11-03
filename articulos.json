@@ -1,5 +1,13 @@
 [
   {
+    "slug": "apps-deepfake-escondidas-tiendas-wired",
+    "titulo": "Parecían apps de fotos de mascotas: así se colaron más de 400 apps de deepfakes en las tiendas de Apple y Google",
+    "resumen": "Una investigación de WIRED destapó una red de más de 400 apps y webs que parecían editores de fotos de mascotas, clases de idiomas o entrenamientos, pero escondían herramientas para crear deepfakes sexuales sin consentimiento. Apple retiró 19 apps y Google ya había eliminado la mayoría: así funcionaba el truco y cómo protegerte.",
+    "categoria": "Ciberseguridad",
+    "fecha": "2026-11-03",
+    "url": "articulos/apps-deepfake-escondidas-tiendas-wired.html"
+  },
+  {
     "slug": "google-suncatcher-ia-orbita-haiku",
     "titulo": "Google ya tiene una IA trabajando en el espacio: su primer mensaje desde órbita fue un haiku",
     "resumen": "El satélite experimental de Project Suncatcher encendió su chip TPU en órbita, ejecutó el modelo Gemma 4 y devolvió a la Tierra un haiku sobre el espacio. Es solo el primer paso, pero Google ya prueba si los centros de datos del futuro pueden vivir fuera del planeta.",
