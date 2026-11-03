@@ -1,5 +1,13 @@
 [
   {
+    "slug": "google-suncatcher-ia-orbita-haiku",
+    "titulo": "Google ya tiene una IA trabajando en el espacio: su primer mensaje desde órbita fue un haiku",
+    "resumen": "El satélite experimental de Project Suncatcher encendió su chip TPU en órbita, ejecutó el modelo Gemma 4 y devolvió a la Tierra un haiku sobre el espacio. Es solo el primer paso, pero Google ya prueba si los centros de datos del futuro pueden vivir fuera del planeta.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-11-02",
+    "url": "articulos/google-suncatcher-ia-orbita-haiku.html"
+  },
+  {
     "slug": "apple-intelligence-china-qwen",
     "titulo": "Apple por fin lleva su inteligencia artificial a China, con el cerebro de Alibaba",
     "resumen": "Apple Intelligence llega por fin a China: pruebas para desarrolladores el 4 de noviembre y lanzamiento público en diciembre con iOS 27.3. Pero en China Siri no hablará con ChatGPT, sino con Qwen, el modelo de Alibaba.",
