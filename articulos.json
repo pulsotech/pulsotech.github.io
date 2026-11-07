@@ -1,5 +1,13 @@
 [
   {
+    "slug": "openai-11-mil-millones-125-billones",
+    "titulo": "OpenAI levanta 11.000 millones de dólares y ya vale 1,25 billones: la empresa detrás de ChatGPT rompe otro récord",
+    "resumen": "OpenAI cerró 11.000 millones de dólares en financiación, la primera parte de una ronda que valora a la empresa en 1,25 billones de dólares, con SoftBank y MGX entre los inversores. Así se explica una cifra que suena de otro planeta.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-11-07",
+    "url": "articulos/openai-11-mil-millones-125-billones.html"
+  },
+  {
     "slug": "openai-gpt-6-cyber-caza-fallos",
     "titulo": "OpenAI lanza GPT-6 Cyber: la IA que encontró 81 fallos críticos en Firefox y 948 formas de atacar Linux",
     "resumen": "OpenAI presentó GPT-6 Cyber, un modelo especializado en ciberseguridad que descubrió 81 vulnerabilidades críticas desconocidas en Firefox y replicó 1.724 fallos del kernel de Linux, con código de ataque funcional para 948 de ellos. Por su potencia, solo lo usarán clientes autorizados.",
