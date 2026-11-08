@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pulsotech.github.io/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://pulsotech.github.io/articulos/microsoft-guardian-agents.html</loc>
@@ -83,5 +83,9 @@
   <url>
     <loc>https://pulsotech.github.io/articulos/openai-11-mil-millones-125-billones.html</loc>
     <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://pulsotech.github.io/articulos/faa-disquetes-control-aereo.html</loc>
+    <lastmod>2026-11-08</lastmod>
   </url>
 </urlset>
