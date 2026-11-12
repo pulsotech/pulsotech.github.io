@@ -1,5 +1,13 @@
 [
   {
+    "slug": "claude-fable-5-2-anthropic",
+    "titulo": "Claude Fable 5.2: la IA que ya trabaja como un experto freelance (y cuesta menos)",
+    "resumen": "Anthropic lanzó el 9 de noviembre Claude Fable 5.2 y Mythos 5.2: el mismo modelo en dos versiones, hasta un 30 % más rápido y un 20 % más barato que su predecesor. En pruebas de la empresa resolvió el 41,3 % de tareas reales de nivel experto, y un ejército de mil agentes suyos demostró un teorema matemático en 30 horas.",
+    "categoria": "Inteligencia artificial",
+    "fecha": "2026-11-12",
+    "url": "articulos/claude-fable-5-2-anthropic.html"
+  },
+  {
     "slug": "google-pixel-tag-localizador-android",
     "titulo": "Google por fin tiene su propio AirTag: el Pixel Tag sale hoy a la venta y así encuentra tus llaves",
     "resumen": "El Pixel Tag, el primer localizador de Google, sale a la venta hoy 11 de noviembre por 29,99 dólares: usa la red Find Hub de más de mil millones de Android, banda ultraancha para localizar con precisión y una pila que dura más de un año. Solo hay un detalle: no sirve con iPhone.",
