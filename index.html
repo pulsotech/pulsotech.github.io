@@ -45,7 +45,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 
 /* ---------- Ticker de tendencias ---------- */
 .pt-ticker{background:var(--navy);color:#fff;overflow:hidden;display:flex;align-items:stretch}
-.pt-ticker-label{background:var(--accent);font-weight:800;font-size:.72rem;letter-spacing:.14em;padding:10px 16px;display:flex;align-items:center;flex:none;z-index:2;text-transform:uppercase}
+.pt-ticker-label{background:var(--accent);font-weight:800;font-size:.68rem;letter-spacing:.1em;padding:10px 10px;display:flex;align-items:center;flex:none;z-index:2;text-transform:uppercase}
 .pt-ticker-view{overflow:hidden;flex:1;display:flex;align-items:center}
 .pt-ticker-track{display:flex;gap:14px;white-space:nowrap;animation:pt-ticker 140s linear infinite;padding:10px 0;align-items:center}
 .pt-ticker:hover .pt-ticker-track{animation-play-state:paused}
@@ -116,7 +116,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-topbar .pt-edicion{color:#ffb03a;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem}
 .pt-logo-text{display:flex;flex-direction:column;line-height:1.12}
 .pt-logo-text small{font-size:.66rem;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
-.pt-trust{background:var(--accent-soft);border-bottom:1px solid var(--line)}
+.pt-trust{background:var(--accent-soft);border-top:1px solid var(--line)}
 .pt-trust-inner{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;font-size:.83rem;font-weight:600}
 .pt-trust-item{white-space:nowrap}
 .pt-trust-item b{color:var(--accent)}
@@ -130,7 +130,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-footer-col a{display:block;margin:7px 0;width:fit-content}
 .pt-footer-brand p{max-width:32em;margin-top:10px}
 .pt-footer-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;color:var(--ink)}
-@media(max-width:760px){.pt-footer-grid{grid-template-columns:1fr;gap:20px}.pt-trust-inner a{margin-left:0}}
+@media(max-width:760px){.pt-footer-grid{grid-template-columns:1fr;gap:20px}.pt-trust-inner a{margin-left:0}.pt-ticker-label-extra{display:none}.pt-ticker-label{font-size:.62rem;padding:10px 7px;letter-spacing:.06em}}
 
 /* ---------- Pie ---------- */
 .pt-footer{border-top:1px solid var(--line);padding:36px 20px;text-align:center;color:var(--muted);font-size:.86rem}
@@ -207,7 +207,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 
 <!-- ================= TICKER DE TENDENCIAS ================= -->
 <div class="pt-ticker">
-  <span class="pt-ticker-label">Última hora &#183; Tendencias</span>
+  <span class="pt-ticker-label">Última hora <span class="pt-ticker-label-extra">&#183; Tendencias</span></span>
   <div class="pt-ticker-view"><div class="pt-ticker-track">
           <!-- INICIO:TICKER -->
 <a href="articulos/anthropic-ipo-nasdaq-ant.html">Anthropic saldrá a bolsa y apunta a valer 1,4 billones: la creadora de Claude ya tiene fecha y precio</a>
@@ -327,15 +327,6 @@ img{max-width:100%;height:auto;border-radius:12px}
 </div>
 
 <!-- ================= FRANJA DE CONFIANZA ================= -->
-<div class="pt-trust">
-  <div class="pt-trust-inner">
-    <span class="pt-trust-item"><b>&#10003;</b> Verificado con 2 fuentes</span>
-    <span class="pt-trust-item"><b>&#10003;</b> Fuentes citadas en cada artículo</span>
-    <span class="pt-trust-item"><b>&#10003;</b> Sin fechas inventadas</span>
-    <span class="pt-trust-item"><b>&#10003;</b> Correcciones públicas</span>
-    <a href="compromiso.html">Cómo verificamos &#8594;</a>
-  </div>
-</div>
 
 <!-- ================= CONTENIDO ================= -->
 <main class="pt-main">
@@ -559,6 +550,16 @@ img{max-width:100%;height:auto;border-radius:12px}
 </main>
 
 <!-- ================= PIE ================= -->
+<div class="pt-trust">
+  <div class="pt-trust-inner">
+    <span class="pt-trust-item"><b>&#10003;</b> Verificado con 2 fuentes</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Fuentes citadas en cada artículo</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Sin fechas inventadas</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Correcciones públicas</span>
+    <a href="compromiso.html">Cómo verificamos &#8594;</a>
+  </div>
+</div>
+
 <footer class="pt-footer">
   <div class="pt-footer-inner">
     <div class="pt-footer-grid">
