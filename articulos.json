@@ -1,5 +1,13 @@
 [
   {
+    "slug": "microsoft-365-caida-global-outlook",
+    "titulo": "Outlook y Microsoft 365 se cayeron en todo el mundo: qué pasó y qué puedes hacer",
+    "resumen": "Desde la tarde del jueves 12 de noviembre, Outlook, Teams, Copilot y unas veinte herramientas de Microsoft 365 fallan en todo el mundo por un problema en Exchange Online. Microsoft ya aplica un parche y descarta un ciberataque, pero todavía no hay hora confirmada para el regreso total del servicio.",
+    "categoria": "Tecnología",
+    "fecha": "2026-11-13",
+    "url": "articulos/microsoft-365-caida-global-outlook.html"
+  },
+  {
     "slug": "claude-fable-5-2-anthropic",
     "titulo": "Claude Fable 5.2: la IA que ya trabaja como un experto freelance (y cuesta menos)",
     "resumen": "Anthropic lanzó el 9 de noviembre Claude Fable 5.2 y Mythos 5.2: el mismo modelo en dos versiones, hasta un 30 % más rápido y un 20 % más barato que su predecesor. En pruebas de la empresa resolvió el 41,3 % de tareas reales de nivel experto, y un ejército de mil agentes suyos demostró un teorema matemático en 30 horas.",
