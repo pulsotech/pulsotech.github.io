@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Google presenta Gemini 4 Hydrogen: su IA más rápida llega a todos, hasta al buscador · Pulso Tech</title>
+<meta content="Google presentó el 12 de noviembre Gemini 4 Hydrogen, el modelo rápido de la familia Gemini 4: según Google, termina las tareas 2,5 veces más rápido que Gemini 3.8 Flash y ya está disponible para todos en el buscador, la app de Gemini y las herramientas para desarrolladores." name="description"/>
+<script>(function(){try{var t=localStorage.getItem('pt-theme');if(t){document.documentElement.setAttribute('data-theme',t);}else if(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+<style>
+/* ================= PULSO TECH · minimalista ================= */
+:root{
+  --bg:#fafaf8; --card:#ffffff; --ink:#191b22; --muted:#6b7280;
+  --accent:#e85d2a; --accent-soft:#fdeee6; --line:#eceae4;
+  --navy:#14161f; --radius:18px;
+  --shadow:0 10px 30px rgba(20,22,31,.08);
+}
+[data-theme="dark"]{
+  --bg:#0f1117; --card:#171a24; --ink:#eceef4; --muted:#9aa1b2;
+  --accent:#ff7a3d; --accent-soft:#2a1c14; --line:#232838;
+  --shadow:0 10px 30px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.65;transition:background .4s ease,color .4s ease;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;height:auto;border-radius:12px}
+/* ---------- Cabecera ---------- */
+.pt-header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:var(--bg);border-bottom:1px solid var(--line)}
+.pt-header-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.pt-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
+.pt-pulse{width:12px;height:12px;border-radius:50%;background:var(--accent);position:relative;flex:none}
+.pt-pulse::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid var(--accent);animation:pt-ping 1.8s ease-out infinite}
+@keyframes pt-ping{0%{transform:scale(.4);opacity:1}100%{transform:scale(1.4);opacity:0}}
+.pt-nav{display:flex;gap:4px}
+.pt-nav a{padding:8px 10px;border-radius:999px;font-size:.86rem;color:var(--muted);font-weight:600;transition:all .25s}
+.pt-nav a:hover{background:var(--accent-soft);color:var(--accent);transform:translateY(-1px)}
+.pt-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.pt-search{display:flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 5px 5px 14px;box-shadow:var(--shadow)}
+.pt-search input{border:0;background:transparent;outline:0;color:var(--ink);font-size:.85rem;width:130px}
+.pt-search button{border:0;background:var(--accent);color:#fff;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:.9rem;transition:transform .2s;line-height:1}
+.pt-search button:hover{transform:scale(1.12) rotate(-10deg)}
+.pt-theme{border:1px solid var(--line);background:var(--card);border-radius:50%;width:38px;height:38px;cursor:pointer;font-size:1.05rem;transition:transform .3s;color:var(--ink);line-height:1}
+.pt-theme:hover{transform:rotate(25deg) scale(1.08)}
+
+/* ---------- Ticker de tendencias ---------- */
+.pt-ticker{background:var(--navy);color:#fff;overflow:hidden;display:flex;align-items:stretch}
+.pt-ticker-label{background:var(--accent);font-weight:800;font-size:.72rem;letter-spacing:.14em;padding:10px 16px;display:flex;align-items:center;flex:none;z-index:2;text-transform:uppercase}
+.pt-ticker-view{overflow:hidden;flex:1;display:flex;align-items:center}
+.pt-ticker-track{display:flex;gap:14px;white-space:nowrap;animation:pt-ticker 125s linear infinite;padding:10px 0;align-items:center}
+.pt-ticker:hover .pt-ticker-track{animation-play-state:paused}
+@keyframes pt-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.pt-ticker-track a{font-size:.85rem;color:#ffd9c7}
+.pt-ticker-track a:hover{color:#fff;text-decoration:underline}
+.pt-ticker-dot{color:var(--accent);font-weight:800}
+
+/* ---------- Contenido ---------- */
+.pt-main{max-width:1080px;margin:0 auto;padding:34px 20px 60px}
+.pt-searchnote{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-bottom:24px;font-size:.95rem}
+.pt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+/* Titular destacado */
+.pt-hero{grid-column:1/-1;position:relative;border-radius:24px;padding:46px 42px;margin-bottom:30px;color:#fff;overflow:hidden;background:linear-gradient(120deg,#14161f,#3a2417,#5b2f16,#14161f);background-size:280% 280%;animation:pt-gradient 10s ease infinite;box-shadow:var(--shadow)}
+@keyframes pt-gradient{0%,100%{background-position:0% 40%}50%{background-position:100% 60%}}
+.pt-kicker{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#ffb03a;margin-bottom:14px}
+.pt-kicker.alt{color:var(--accent)}
+.pt-hero h2{font-size:clamp(1.6rem,3.4vw,2.6rem);line-height:1.18;letter-spacing:-.02em;margin-bottom:12px;max-width:16em}
+.pt-hero h2 a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:6px}
+.pt-hero-snippet{color:#e8d9cd;max-width:38em;margin-bottom:20px}
+.pt-hero .pt-meta{color:#c9b8ab}
+.pt-cta{display:inline-block;margin-top:18px;background:var(--accent);color:#fff!important;font-weight:700;padding:12px 26px;border-radius:999px;transition:transform .25s,box-shadow .25s;box-shadow:0 8px 20px rgba(232,93,42,.35)}
+.pt-cta:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 12px 26px rgba(232,93,42,.5)}
+
+/* Tarjetas */
+.pt-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);position:relative;overflow:hidden;transition:transform .3s ease,box-shadow .3s ease;display:flex;flex-direction:column;gap:12px}
+.pt-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--accent),#ffb03a);transform:scaleX(0);transform-origin:left;transition:transform .35s ease}
+.pt-card:hover{transform:translateY(-6px)}
+.pt-card:hover::before{transform:scaleX(1)}
+.pt-card h3{font-size:1.18rem;line-height:1.35;letter-spacing:-.01em}
+.pt-card h3 a:hover{color:var(--accent)}
+.pt-snippet{color:var(--muted);font-size:.93rem}
+.pt-meta{display:flex;align-items:center;gap:10px;font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-weight:600}
+.pt-labels{display:flex;flex-wrap:wrap;gap:8px}
+.pt-chip{background:var(--accent-soft);color:var(--accent);font-size:.74rem;font-weight:700;padding:4px 12px;border-radius:999px}
+.pt-more{margin-top:auto;font-weight:700;color:var(--accent);font-size:.9rem}
+.pt-more span{display:inline-block;transition:transform .25s}
+.pt-card:hover .pt-more span{transform:translateX(6px)}
+
+/* ---------- Bloque del canal ---------- */
+.pt-about{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:40px;box-shadow:var(--shadow);margin-top:38px}
+.pt-about h2{font-size:clamp(1.3rem,2.6vw,1.8rem);letter-spacing:-.02em;margin-bottom:10px}
+.pt-about p{color:var(--muted);max-width:44em}
+
+/* ---------- Artículo individual ---------- */
+.pt-article{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:46px;box-shadow:var(--shadow);max-width:830px;margin:0 auto}
+.pt-article h1{font-size:clamp(1.7rem,3.6vw,2.7rem);line-height:1.2;letter-spacing:-.02em;margin:14px 0}
+.pt-article .post-body{font-size:1.05rem;margin-top:18px}
+.pt-article .post-body p{margin-bottom:1.2em}
+.pt-article .post-body h2,.pt-article .post-body h3{margin:1.4em 0 .6em;letter-spacing:-.01em}
+.pt-article .post-body ul,.pt-article .post-body ol{margin:0 0 1.2em 1.4em}
+.pt-article .post-body blockquote{border-left:4px solid var(--accent);background:var(--accent-soft);padding:14px 20px;border-radius:0 12px 12px 0;margin:1.4em 0;font-style:italic}
+.pt-article .post-body a{color:var(--accent);font-weight:600}
+.pt-article .post-body a:hover{text-decoration:underline}
+.pt-esencial{background:var(--accent-soft);border-left:4px solid var(--accent);padding:18px 22px;border-radius:0 14px 14px 0;margin:26px 0}
+.pt-esencial h3{margin:0 0 10px}
+.pt-esencial ul{margin:0 0 0 1.2em}
+.pt-esencial li{margin-bottom:6px}
+.pt-fuentes{font-size:.9rem;color:var(--muted)}
+.pt-back{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);font-size:.9rem}
+.pt-back:hover{text-decoration:underline}
+/* ---------- Franja superior, tagline y confianza ---------- */
+.pt-topbar{background:var(--navy);color:#cfd3e0;font-size:.78rem}
+.pt-topbar-inner{max-width:1080px;margin:0 auto;padding:7px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.pt-topbar .pt-fecha{text-transform:capitalize}
+.pt-topbar .pt-edicion{color:#ffb03a;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem}
+.pt-logo-text{display:flex;flex-direction:column;line-height:1.12}
+.pt-logo-text small{font-size:.66rem;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+.pt-trust{background:var(--accent-soft);border-bottom:1px solid var(--line)}
+.pt-trust-inner{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;font-size:.83rem;font-weight:600}
+.pt-trust-item{white-space:nowrap}
+.pt-trust-item b{color:var(--accent)}
+.pt-trust-inner a{color:var(--accent);font-weight:700;margin-left:auto;white-space:nowrap}
+.pt-trust-inner a:hover{text-decoration:underline}
+.pt-verificado{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:.92rem;margin:28px 0 6px}
+.pt-verificado a{color:var(--accent);font-weight:700}
+.pt-footer-inner{max-width:1080px;margin:0 auto}
+.pt-footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px;text-align:left;margin-bottom:28px}
+.pt-footer-col h4{color:var(--ink);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.pt-footer-col a{display:block;margin:7px 0;width:fit-content}
+.pt-footer-brand p{max-width:32em;margin-top:10px}
+.pt-footer-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;color:var(--ink)}
+@media(max-width:760px){.pt-footer-grid{grid-template-columns:1fr;gap:20px}.pt-trust-inner a{margin-left:0}}
+
+/* ---------- Pie ---------- */
+.pt-footer{border-top:1px solid var(--line);padding:36px 20px;text-align:center;color:var(--muted);font-size:.86rem}
+.pt-footer b{color:var(--ink)}
+.pt-footer .pt-small{margin-top:8px;font-size:.78rem}
+.pt-footer a:hover{color:var(--accent)}
+
+/* ---------- Mascota Pucky ---------- */
+.pt-mascot{position:fixed;right:22px;bottom:22px;z-index:60;width:94px;cursor:pointer;filter:drop-shadow(0 12px 20px rgba(0,0,0,.25));animation:pt-float 4s ease-in-out infinite;transition:transform .25s}
+.pt-mascot:hover{transform:scale(1.08)}
+@keyframes pt-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.pt-eye{transform-box:fill-box;transform-origin:center;animation:pt-blink 4.6s infinite}
+@keyframes pt-blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+.pt-tail{transform-box:fill-box;transform-origin:20% 20%;animation:pt-wag 3.4s ease-in-out infinite}
+@keyframes pt-wag{0%,100%{transform:rotate(0deg)}50%{transform:rotate(12deg)}}
+.pt-paw-wave{transform-box:fill-box;transform-origin:50% 90%}
+.pt-mascot.waving .pt-paw-wave{animation:pt-wave .7s ease 2}
+@keyframes pt-wave{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-35deg)}}
+.pt-bubble{position:fixed;right:126px;bottom:100px;z-index:60;max-width:230px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px 16px 4px 16px;padding:12px 16px;font-size:.85rem;font-weight:600;box-shadow:var(--shadow);opacity:0;transform:translateY(8px) scale(.92);pointer-events:none;transition:opacity .3s,transform .35s cubic-bezier(.34,1.56,.64,1)}
+.pt-bubble.show{opacity:1;transform:none}
+
+/* ---------- Aparición al hacer scroll ---------- */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.61,.36,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- Responsive ---------- */
+@media(max-width:760px){
+  .pt-nav{display:none}
+  .pt-hero{padding:32px 24px}
+  .pt-article{padding:28px 20px}
+  .pt-about{padding:28px 22px}
+  .pt-search input{width:88px}
+  .pt-mascot{width:74px;right:14px;bottom:14px}
+  .pt-bubble{right:98px;bottom:82px;max-width:200px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!-- ================= FRANJA SUPERIOR ================= -->
+<div class="pt-topbar">
+  <div class="pt-topbar-inner">
+    <span class="pt-fecha" id="pt-fecha">viernes, 13 de noviembre de 2026</span>
+    <span class="pt-edicion">Noticias de tecnología verificadas &#183; 3 ediciones al día</span>
+  </div>
+</div>
+
+<!-- ================= CABECERA ================= -->
+<header class="pt-header">
+  <div class="pt-header-inner">
+    <a class="pt-logo" href="../index.html"><span class="pt-pulse"></span><span class="pt-logo-text">Pulso Tech<small>Noticias de tecnología verificadas</small></span></a>
+    <nav class="pt-nav">
+      <a href="../index.html">Inicio</a>
+      <a href="../index.html?q=inteligencia%20artificial">Inteligencia Artificial</a>
+      <a href="../index.html?q=m%C3%B3viles">Móviles</a>
+      <a href="../index.html?q=apps">Apps</a>
+      <a href="../index.html?q=ciberseguridad">Ciberseguridad</a>
+      <a href="../index.html?q=gadgets">Gadgets</a>
+      <a href="../compromiso.html">Nuestro compromiso</a>
+    </nav>
+    <div class="pt-tools">
+      <form action="../index.html" class="pt-search" id="pt-buscar" method="get">
+        <input aria-label="Buscar artículos" id="pt-q" name="q" placeholder="Buscar..." type="search"/>
+        <button title="Buscar" type="submit">&#8981;</button>
+      </form>
+      <button aria-label="Cambiar tema" class="pt-theme" id="pt-theme" title="Modo claro / oscuro">&#9681;</button>
+    </div>
+  </div>
+</header>
+<!-- ================= ARTÍCULO ================= -->
+<main class="pt-main">
+  <article class="pt-article reveal in">
+    <a class="pt-back" href="../index.html">&#8592; Volver</a>
+    <p class="pt-kicker alt" style="margin-top:20px">Inteligencia artificial</p>
+    <h1>Google presenta Gemini 4 Hydrogen: su IA más rápida llega a todos, hasta al buscador</h1>
+    <div class="pt-meta"><span>13 de noviembre de 2026</span><span>&#183; Redacción Pulso Tech</span></div>
+    <div class="post-body">
+      <p>Google tiene un problema de abundancia: en apenas un mes presentó tres modelos nuevos de la familia Gemini 4. Primero llegaron Carbon, el cerebro pesado pensado para la ciberseguridad, y Argon, el de razonamiento profundo. Ayer, jueves 12 de noviembre, se sumó el tercer hermano: <strong>Gemini 4 Hydrogen</strong>. Y este no viene a ser el más listo de la familia, sino el más rápido: el modelo que Google quiere que uses todos los días, cada vez que buscas algo, programas o le pides a un agente de IA que haga una tarea por ti.</p>
+
+      <h2>¿Qué es Hydrogen y para qué sirve?</h2>
+      <p>Hydrogen está adaptado de Gemini 4 Carbon, pero con un trabajo distinto: la <strong>ejecución rápida</strong>. Está pensado para las tareas que se repiten una y otra vez dentro de un flujo de trabajo con agentes de IA: leer archivos, buscar información, escribir y probar código, llamar a herramientas y comprobar que el resultado salió bien. En la lógica de Google, no todos los agentes de un equipo necesitan ser genios: hace falta uno veloz que ejecute sin detenerse. Por eso el mensaje de la compañía es tan claro: <strong>Carbon planifica y Hydrogen ejecuta</strong>.</p>
+
+      <h2>¿De verdad es tan rápido?</h2>
+      <p>El dato que Google repite es que Hydrogen completa las tareas <strong>2,5 veces más rápido que Gemini 3.8 Flash</strong>, el modelo al que reemplaza, en su configuración de razonamiento alta por defecto. Y hay un número que ilustra el salto: en Terminal-Bench 4.1, una prueba que mide la capacidad de resolver tareas reales de programación desde la terminal, Hydrogen alcanzó un <strong>57 % de éxito frente al 18,2 % de Flash</strong>.</p>
+      <p>También hay una sorpresa: en el Artificial Analysis Intelligence Index, el ranking independiente que compara modelos, Hydrogen supera incluso a Argon, su hermano mayor, con 51 puntos frente a 50 en la configuración estándar, y llega a 54 en su nivel de razonamiento más alto. Google ofrece cuatro niveles de razonamiento —bajo, medio, alto y extra alto— para ajustar el equilibrio entre velocidad y profundidad. Y otro dato que la empresa destaca: Hydrogen reduce en más de cinco veces las afirmaciones inventadas respecto a Flash, ese problema de las IA que responden con total seguridad algo que no es verdad.</p>
+      <h2>¿Cuánto cuesta y dónde se usa?</h2>
+      <p>En la API de Gemini, Hydrogen cuesta <strong>1,50 dólares por millón de tokens de entrada y 7,50 por millón de salida</strong>, con una tarifa plana en toda su ventana de contexto de un millón de tokens. Acepta texto, imágenes, audio y video, y su conocimiento llega hasta marzo de 2026. Para los desarrolladores hay además un nivel gratuito con límites en la API y en Google AI Studio.</p>
+      <p>Pero lo más importante para el usuario común es dónde aparece sin que tenga que hacer nada: <strong>en el buscador de Google, para todos</strong>. Hydrogen ya es el modelo que responde en el modo de IA y en las respuestas generadas de la búsqueda, y en la app de Gemini la selección automática lo pone a trabajar cuando la tarea lo pide. También está en Google AI Studio, la API de Gemini, Gemini for business y Google Antigravity para los suscriptores de los planes Pro y Ultra. El despliegue es global, aunque puede tardar horas o días en activarse en cada cuenta.</p>
+
+      <h2>¿Y a ti en qué te afecta?</h2>
+      <p>Si usas el buscador de Google, lo notarás sin instalar nada: las respuestas con IA deberían llegar más rápido y con menos errores inventados, porque corren sobre Hydrogen. Si programas, es el relevo natural de Gemini 3.8 Flash: Google lo recomienda como la actualización directa para quienes usaban ese modelo. Y si te interesa la seguridad, hay un dato que vale la pena seguir: Google asegura que Hydrogen reduce hasta un 81 % los casos en los que un agente se excede de sus permisos, es decir, cuando hace algo que no le pediste. En un mundo donde delegamos cada vez más tareas a agentes autónomos, ese límite importa tanto como la velocidad.</p>
+
+      <h2>Lo que hay que mirar con lupa</h2>
+      <p>Como con cada lanzamiento, conviene separar el anuncio de la prueba: todas las cifras son de Google y todavía no tienen validación independiente. Habrá que ver cómo se comporta Hydrogen fuera de sus laboratorios, con usuarios y tareas reales. Lo que sí está claro es el movimiento de fondo: la batalla de 2026 se juega en el modelo que usas a diario, el que responde en el buscador y ejecuta las tareas aburridas mientras tú haces otra cosa. Hydrogen es la apuesta de Google para ganar esa batalla.</p>
+
+      <div class="pt-esencial">
+        <h3>Lo esencial</h3>
+        <ul>
+          <li>Google lanzó el 12 de noviembre Gemini 4 Hydrogen, el tercer modelo de la familia Gemini 4, pensado para la ejecución rápida de tareas y agentes de IA.</li>
+          <li>Según Google, es 2,5 veces más rápido que Gemini 3.8 Flash y salta del 18,2 % al 57 % en la prueba de programación Terminal-Bench 4.1.</li>
+          <li>Cuesta 1,50 dólares por millón de tokens de entrada y 7,50 por millón de salida en la API, con una ventana de contexto de un millón de tokens.</li>
+          <li>Ya está disponible para todos en el buscador de Google, en la app de Gemini, en AI Studio, en la API y en Antigravity.</li>
+        </ul>
+      </div>
+
+      <p>En <strong>Pulso Tech</strong> seguiremos el pulso de esta historia: la carrera por la IA que usas todos los días, no solo la más potente.</p>
+
+      <p class="pt-verificado">&#10003; Artículo verificado con al menos 2 fuentes independientes. <a href="../compromiso.html">Así verificamos en Pulso Tech</a>.</p>
+      <p class="pt-fuentes">Fuente: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-Hydrogen/" rel="noopener" target="_blank">Google Blog</a> y <a href="https://www.infobae.com/america/agencias/2026/11/13/google-lanza-gemini-4-hydrogen-su-nuevo-modelo-rapido-para-codificacion-y-flujos-de-trabajo-agenticos/" rel="noopener" target="_blank">Infobae</a>.</p>
+
+    </div>
+    <div class="pt-labels" style="margin-top:26px"><span class="pt-chip">Inteligencia artificial</span></div>
+  </article>
+</main>
+<!-- ================= FRANJA DE CONFIANZA ================= -->
+<div class="pt-trust">
+  <div class="pt-trust-inner">
+    <span class="pt-trust-item"><b>&#10003;</b> Verificado con 2 fuentes</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Fuentes citadas en cada artículo</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Sin fechas inventadas</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Correcciones públicas</span>
+    <a href="../compromiso.html">Cómo verificamos &#8594;</a>
+  </div>
+</div>
+
+<!-- ================= PIE ================= -->
+<footer class="pt-footer">
+  <div class="pt-footer-inner">
+    <div class="pt-footer-grid">
+      <div class="pt-footer-col pt-footer-brand">
+        <p class="pt-footer-logo"><span class="pt-pulse"></span><span>Pulso Tech</span></p>
+        <p>Medio digital de noticias de tecnología en español. Publicamos tres ediciones al día con una regla que no se negocia: ninguna noticia sale sin contrastarse con al menos dos fuentes independientes o una fuente oficial, y cada artículo cita sus fuentes al final.</p>
+      </div>
+      <div class="pt-footer-col">
+        <h4>Secciones</h4>
+        <a href="../index.html?q=inteligencia%20artificial">Inteligencia Artificial</a>
+        <a href="../index.html?q=m%C3%B3viles">Móviles</a>
+        <a href="../index.html?q=apps">Apps</a>
+        <a href="../index.html?q=ciberseguridad">Ciberseguridad</a>
+        <a href="../index.html?q=gadgets">Gadgets</a>
+      </div>
+      <div class="pt-footer-col">
+        <h4>El medio</h4>
+        <a href="../compromiso.html">Nuestro compromiso: cómo verificamos</a>
+        <a href="https://www.facebook.com/profile.php?id=1407677562424639" rel="noopener" target="_blank">Página de Facebook</a>
+        <a href="https://www.threads.com/@salvador_willian" rel="noopener" target="_blank">Threads</a>
+        <a href="https://www.youtube.com/@lokuiito" rel="noopener" target="_blank">YouTube &#183; Lokuiito</a>
+      </div>
+    </div>
+    <p class="pt-small">Pulso Tech &#183; Noticias de tecnología verificadas &#183; &#169; 2026 Pulso Tech</p>
+  </div>
+</footer>
+<!-- ================= MASCOTA PUCKY ================= -->
+<div class="pt-bubble" id="pt-bubble">Hola, soy Pucky. Toca para saludar.</div>
+<div class="pt-mascot" id="pt-mascot" title="Pucky">
+<svg aria-label="Pucky, la mascota de Pulso Tech" role="img" viewBox="0 0 120 132" xmlns="http://www.w3.org/2000/svg">
+  <g class="pt-tail">
+    <path d="M94 98 Q122 90 118 58 Q116 40 100 38 Q88 37 90 52 Q92 70 78 78 Z" fill="#C74E24"/>
+    <path d="M104 66 Q112 64 113 54" fill="none" stroke="#8f3413" stroke-linecap="round" stroke-width="6"/>
+    <path d="M100 80 Q110 78 112 68" fill="none" stroke="#8f3413" stroke-linecap="round" stroke-width="6"/>
+  </g>
+  <path d="M18 44 Q8 18 30 12 Q44 8 48 24 Z" fill="#D8542A"/>
+  <path d="M24 38 Q18 24 30 20 Q38 17 41 28 Z" fill="#FFF3E8"/>
+  <path d="M102 44 Q112 18 90 12 Q76 8 72 24 Z" fill="#D8542A"/>
+  <path d="M96 38 Q102 24 90 20 Q82 17 79 28 Z" fill="#FFF3E8"/>
+  <ellipse cx="60" cy="66" fill="#E0652F" rx="46" ry="42"/>
+  <ellipse cx="24" cy="80" fill="#FFF6EE" rx="13" ry="17" transform="rotate(-12 24 80)"/>
+  <ellipse cx="96" cy="80" fill="#FFF6EE" rx="13" ry="17" transform="rotate(12 96 80)"/>
+  <rect height="8" rx="4" width="14" x="38" y="30" fill="#FFF6EE"/>
+  <rect height="8" rx="4" width="14" x="68" y="30" fill="#FFF6EE"/>
+  <ellipse cx="32" cy="72" fill="#ff9d9d" opacity=".65" rx="6" ry="4"/>
+  <ellipse cx="88" cy="72" fill="#ff9d9d" opacity=".65" rx="6" ry="4"/>
+  <g class="pt-eye">
+    <ellipse cx="44" cy="58" fill="#fff" rx="11" ry="13"/>
+    <ellipse cx="45" cy="60" fill="#2b2118" rx="6" ry="8.5"/>
+    <circle cx="47" cy="56" fill="#fff" r="3"/>
+    <circle cx="43" cy="63" fill="#fff" opacity=".8" r="1.4"/>
+  </g>
+  <g class="pt-eye" style="animation-delay:.09s">
+    <ellipse cx="76" cy="58" fill="#fff" rx="11" ry="13"/>
+    <ellipse cx="75" cy="60" fill="#2b2118" rx="6" ry="8.5"/>
+    <circle cx="77" cy="56" fill="#fff" r="3"/>
+    <circle cx="73" cy="63" fill="#fff" opacity=".8" r="1.4"/>
+  </g>
+  <ellipse cx="60" cy="86" fill="#FFF9F3" rx="20" ry="14"/>
+  <ellipse cx="60" cy="80" fill="#5b3a29" rx="7" ry="5.5"/>
+  <path d="M52 91 Q60 96 68 91" fill="none" stroke="#5b3a29" stroke-linecap="round" stroke-width="2.5"/>
+  <ellipse cx="40" cy="112" fill="#D8542A" rx="10" ry="8"/>
+  <g class="pt-paw-wave">
+    <ellipse cx="80" cy="110" fill="#D8542A" rx="10" ry="8"/>
+  </g>
+</svg>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  /* Fecha del día en la franja superior */
+  try{
+    var dias=['domingo','lunes','martes','mi\u00e9rcoles','jueves','viernes','s\u00e1bado'],meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],hoy=new Date(),fe=document.getElementById('pt-fecha');
+    if(fe){fe.textContent=dias[hoy.getDay()]+', '+hoy.getDate()+' de '+meses[hoy.getMonth()]+' de '+hoy.getFullYear();}
+  }catch(e){}
+  /* Tema claro / oscuro */
+  document.getElementById('pt-theme').addEventListener('click',function(){
+    var next=root.getAttribute('data-theme')==='dark'?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('pt-theme',next);}catch(e){}
+  });
+  /* Mascota Pucky */
+  var m=document.getElementById('pt-mascot'),b=document.getElementById('pt-bubble'),t=null,i=0;
+  var msgs=[
+    'Hola, soy Pucky. Bienvenido a Pulso Tech.',
+    '¿Ya leíste lo de hoy? Hay titular nuevo.',
+    'Vuelve a la portada para ver más titulares.',
+    'Vuelve mañana: publicamos todos los días.'
+  ];
+  m.addEventListener('click',function(){
+    i=(i+1)%msgs.length;
+    b.textContent=msgs[i];
+    b.classList.add('show');
+    m.classList.remove('waving');void m.offsetWidth;m.classList.add('waving');
+    clearTimeout(t);t=setTimeout(function(){b.classList.remove('show');},4500);
+  });
+})();
+</script>
+
+</body>
+</html>
