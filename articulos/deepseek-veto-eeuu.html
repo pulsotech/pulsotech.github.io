@@ -27,13 +27,13 @@ img{max-width:100%;height:auto;border-radius:12px}
 
 /* ---------- Cabecera ---------- */
 .pt-header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:var(--bg);border-bottom:1px solid var(--line)}
-.pt-header-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px}
+.pt-header-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .pt-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
 .pt-pulse{width:12px;height:12px;border-radius:50%;background:var(--accent);position:relative;flex:none}
 .pt-pulse::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid var(--accent);animation:pt-ping 1.8s ease-out infinite}
 @keyframes pt-ping{0%{transform:scale(.4);opacity:1}100%{transform:scale(1.4);opacity:0}}
 .pt-nav{display:flex;gap:4px}
-.pt-nav a{padding:8px 14px;border-radius:999px;font-size:.9rem;color:var(--muted);font-weight:600;transition:all .25s}
+.pt-nav a{padding:8px 10px;border-radius:999px;font-size:.86rem;color:var(--muted);font-weight:600;transition:all .25s}
 .pt-nav a:hover{background:var(--accent-soft);color:var(--accent);transform:translateY(-1px)}
 .pt-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
 .pt-search{display:flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 5px 5px 14px;box-shadow:var(--shadow)}
@@ -47,7 +47,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-ticker{background:var(--navy);color:#fff;overflow:hidden;display:flex;align-items:stretch}
 .pt-ticker-label{background:var(--accent);font-weight:800;font-size:.72rem;letter-spacing:.14em;padding:10px 16px;display:flex;align-items:center;flex:none;z-index:2;text-transform:uppercase}
 .pt-ticker-view{overflow:hidden;flex:1;display:flex;align-items:center}
-.pt-ticker-track{display:flex;gap:14px;white-space:nowrap;animation:pt-ticker 30s linear infinite;padding:10px 0;align-items:center}
+.pt-ticker-track{display:flex;gap:14px;white-space:nowrap;animation:pt-ticker 125s linear infinite;padding:10px 0;align-items:center}
 .pt-ticker:hover .pt-ticker-track{animation-play-state:paused}
 @keyframes pt-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .pt-ticker-track a{font-size:.85rem;color:#ffd9c7}
@@ -109,6 +109,29 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-back{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);font-size:.9rem}
 .pt-back:hover{text-decoration:underline}
 
+/* ---------- Franja superior, tagline y confianza ---------- */
+.pt-topbar{background:var(--navy);color:#cfd3e0;font-size:.78rem}
+.pt-topbar-inner{max-width:1080px;margin:0 auto;padding:7px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.pt-topbar .pt-fecha{text-transform:capitalize}
+.pt-topbar .pt-edicion{color:#ffb03a;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem}
+.pt-logo-text{display:flex;flex-direction:column;line-height:1.12}
+.pt-logo-text small{font-size:.66rem;font-weight:600;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+.pt-trust{background:var(--accent-soft);border-bottom:1px solid var(--line)}
+.pt-trust-inner{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;font-size:.83rem;font-weight:600}
+.pt-trust-item{white-space:nowrap}
+.pt-trust-item b{color:var(--accent)}
+.pt-trust-inner a{color:var(--accent);font-weight:700;margin-left:auto;white-space:nowrap}
+.pt-trust-inner a:hover{text-decoration:underline}
+.pt-verificado{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:.92rem;margin:28px 0 6px}
+.pt-verificado a{color:var(--accent);font-weight:700}
+.pt-footer-inner{max-width:1080px;margin:0 auto}
+.pt-footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px;text-align:left;margin-bottom:28px}
+.pt-footer-col h4{color:var(--ink);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.pt-footer-col a{display:block;margin:7px 0;width:fit-content}
+.pt-footer-brand p{max-width:32em;margin-top:10px}
+.pt-footer-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;color:var(--ink)}
+@media(max-width:760px){.pt-footer-grid{grid-template-columns:1fr;gap:20px}.pt-trust-inner a{margin-left:0}}
+
 /* ---------- Pie ---------- */
 .pt-footer{border-top:1px solid var(--line);padding:36px 20px;text-align:center;color:var(--muted);font-size:.86rem}
 .pt-footer b{color:var(--ink)}
@@ -151,13 +174,26 @@ img{max-width:100%;height:auto;border-radius:12px}
 </head>
 <body>
 
+<!-- ================= FRANJA SUPERIOR ================= -->
+<div class="pt-topbar">
+  <div class="pt-topbar-inner">
+    <span class="pt-fecha" id="pt-fecha">viernes, 13 de noviembre de 2026</span>
+    <span class="pt-edicion">Noticias de tecnología verificadas &#183; 3 ediciones al día</span>
+  </div>
+</div>
+
 <!-- ================= CABECERA ================= -->
 <header class="pt-header">
   <div class="pt-header-inner">
-    <a class="pt-logo" href="../index.html"><span class="pt-pulse"></span><span>Pulso Tech</span></a>
+    <a class="pt-logo" href="../index.html"><span class="pt-pulse"></span><span class="pt-logo-text">Pulso Tech<small>Noticias de tecnología verificadas</small></span></a>
     <nav class="pt-nav">
       <a href="../index.html">Inicio</a>
-      <a href="https://www.youtube.com/@lokuiito" rel="noopener" target="_blank">Canal</a>
+      <a href="../index.html?q=inteligencia%20artificial">Inteligencia Artificial</a>
+      <a href="../index.html?q=m%C3%B3viles">Móviles</a>
+      <a href="../index.html?q=apps">Apps</a>
+      <a href="../index.html?q=ciberseguridad">Ciberseguridad</a>
+      <a href="../index.html?q=gadgets">Gadgets</a>
+      <a href="../compromiso.html">Nuestro compromiso</a>
     </nav>
     <div class="pt-tools">
       <form action="../index.html" class="pt-search" id="pt-buscar" method="get">
@@ -175,7 +211,7 @@ img{max-width:100%;height:auto;border-radius:12px}
     <a class="pt-back" href="../index.html">&#8592; Volver</a>
     <p class="pt-kicker alt" style="margin-top:20px">Inteligencia artificial</p>
     <h1>Washington le cierra la puerta a DeepSeek: la IA china queda vetada en las agencias federales de EE. UU.</h1>
-    <div class="pt-meta"><span>19 de octubre de 2026</span><span>&#183; Pulso Tech</span></div>
+    <div class="pt-meta"><span>19 de octubre de 2026</span><span>&#183; Redacción Pulso Tech</span></div>
     <div class="post-body">
       <p>El gobierno de Estados Unidos acaba de dar el paso que muchos veían venir. Este lunes 19 de octubre, el Departamento de Seguridad Nacional (DHS, por sus siglas en inglés) hizo pública una orden que prohíbe a todas las agencias civiles federales utilizar productos de <strong>DeepSeek</strong>, la empresa china de inteligencia artificial que a principios de 2025 sacudió al mundo con modelos potentes, abiertos y baratos. Y no se trata solo de frenar las compras futuras: las agencias también tendrán que desinstalar lo que ya tengan instalado, y el veto alcanza incluso a herramientas de terceros construidas sobre los modelos de DeepSeek.</p>
 
@@ -208,16 +244,50 @@ img{max-width:100%;height:auto;border-radius:12px}
 
       <p>En <strong>Pulso Tech</strong> seguiremos el pulso de esta historia: cómo los gobiernos regulan la IA que usas todos los días.</p>
 
+      <p class="pt-verificado">&#10003; Artículo verificado con al menos 2 fuentes independientes. <a href="../compromiso.html">Así verificamos en Pulso Tech</a>.</p>
       <p class="pt-fuentes">Fuente: <a href="https://techstartups.com/2026/10/19/top-tech-news-today-october-19-2026-anthropic-deepseek-idealab-meta-microsoft-more/" rel="noopener" target="_blank">Tech Startups</a> (con información de Reuters) y <a href="https://thediaryofai.com/ai-news-20261019/" rel="noopener" target="_blank">The Diary of AI</a>.</p>
     </div>
     <div class="pt-labels" style="margin-top:26px"><span class="pt-chip">Inteligencia artificial</span></div>
   </article>
 </main>
 
+<!-- ================= FRANJA DE CONFIANZA ================= -->
+<div class="pt-trust">
+  <div class="pt-trust-inner">
+    <span class="pt-trust-item"><b>&#10003;</b> Verificado con 2 fuentes</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Fuentes citadas en cada artículo</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Sin fechas inventadas</span>
+    <span class="pt-trust-item"><b>&#10003;</b> Correcciones públicas</span>
+    <a href="../compromiso.html">Cómo verificamos &#8594;</a>
+  </div>
+</div>
+
 <!-- ================= PIE ================= -->
 <footer class="pt-footer">
-  <p><b>Pulso Tech</b> &#183; Hecho con cariño para lectores curiosos</p>
-  <p class="pt-small"><a href="../index.html">Inicio</a> &#183; <a href="https://www.youtube.com/@lokuiito" rel="noopener" target="_blank">YouTube</a> &#183; Pulso Tech &#183; &#169; 2026</p>
+  <div class="pt-footer-inner">
+    <div class="pt-footer-grid">
+      <div class="pt-footer-col pt-footer-brand">
+        <p class="pt-footer-logo"><span class="pt-pulse"></span><span>Pulso Tech</span></p>
+        <p>Medio digital de noticias de tecnología en español. Publicamos tres ediciones al día con una regla que no se negocia: ninguna noticia sale sin contrastarse con al menos dos fuentes independientes o una fuente oficial, y cada artículo cita sus fuentes al final.</p>
+      </div>
+      <div class="pt-footer-col">
+        <h4>Secciones</h4>
+        <a href="../index.html?q=inteligencia%20artificial">Inteligencia Artificial</a>
+        <a href="../index.html?q=m%C3%B3viles">Móviles</a>
+        <a href="../index.html?q=apps">Apps</a>
+        <a href="../index.html?q=ciberseguridad">Ciberseguridad</a>
+        <a href="../index.html?q=gadgets">Gadgets</a>
+      </div>
+      <div class="pt-footer-col">
+        <h4>El medio</h4>
+        <a href="../compromiso.html">Nuestro compromiso: cómo verificamos</a>
+        <a href="https://www.facebook.com/profile.php?id=1407677562424639" rel="noopener" target="_blank">Página de Facebook</a>
+        <a href="https://www.threads.com/@salvador_willian" rel="noopener" target="_blank">Threads</a>
+        <a href="https://www.youtube.com/@lokuiito" rel="noopener" target="_blank">YouTube &#183; Lokuiito</a>
+      </div>
+    </div>
+    <p class="pt-small">Pulso Tech &#183; Noticias de tecnología verificadas &#183; &#169; 2026 Pulso Tech</p>
+  </div>
 </footer>
 
 <!-- ================= MASCOTA PUCKY ================= -->
@@ -265,6 +335,11 @@ img{max-width:100%;height:auto;border-radius:12px}
 <script>
 (function(){
   var root=document.documentElement;
+  /* Fecha del día en la franja superior */
+  try{
+    var dias=['domingo','lunes','martes','mi\u00e9rcoles','jueves','viernes','s\u00e1bado'],meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],hoy=new Date(),fe=document.getElementById('pt-fecha');
+    if(fe){fe.textContent=dias[hoy.getDay()]+', '+hoy.getDate()+' de '+meses[hoy.getMonth()]+' de '+hoy.getFullYear();}
+  }catch(e){}
   /* Tema claro / oscuro */
   document.getElementById('pt-theme').addEventListener('click',function(){
     var next=root.getAttribute('data-theme')==='dark'?'light':'dark';
