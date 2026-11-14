@@ -1,5 +1,13 @@
 [
   {
+    "slug": "starship-vuelo-15-atrapa-nave-torre",
+    "titulo": "Starship ya está en órbita con 26 satélites, pero perdió su propulsor: hoy intenta la atrapada más difícil de su historia",
+    "resumen": "El vuelo 15 de Starship despegó el viernes 13 de noviembre desde Texas: la nave Ship 42 llegó a órbita y desplegó 26 satélites Starlink V3, pero el propulsor Super Heavy no pudo ser atrapado por la torre y explotó sobre el Golfo de México. Esta tarde, alrededor de las 5:17 PM hora de RD, la nave intentará la primera atrapada de una etapa superior en la historia.",
+    "categoria": "Espacio",
+    "fecha": "2026-11-14",
+    "url": "articulos/starship-vuelo-15-atrapa-nave-torre.html"
+  },
+  {
     "slug": "chatgpt-wallet-agentes-compran-por-ti",
     "titulo": "ChatGPT ya tiene cartera: su agente puede comprar por ti, pero tú das el último sí",
     "resumen": "OpenAI lanzó el 13 de noviembre ChatGPT Wallet: sus agentes «dots» ya pueden completar compras por el usuario, con aprobación biométrica en cada pago y sin ver nunca los datos reales de la tarjeta. Por ahora, solo para suscriptores Pro en Estados Unidos.",
