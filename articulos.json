@@ -1,5 +1,14 @@
 [
   {
+    "slug": "faa-paro-nacional-vuelos",
+    "titulo": "EE. UU. dejó en tierra todos sus vuelos por un cable de cobre: así colapsó el control aéreo",
+    "resumen": "El viernes 13 de noviembre, la FAA ordenó parar todos los despegues de Estados Unidos durante más de cuatro horas: una falla de telecomunicaciones en los centros de control aéreo, con routers de los años 80 sobrecargados de datos, dejó más de 10.000 vuelos retrasados. No fue un ciberataque: fue tecnología vieja.",
+    "categoria": "Tecnología",
+    "fecha": "2026-11-14",
+    "url": "articulos/faa-paro-nacional-vuelos.html",
+    "imagen": "faa-paro-nacional-vuelos.jpg"
+  },
+  {
     "slug": "starship-vuelo-15-atrapa-nave-torre",
     "titulo": "Starship ya está en órbita con 26 satélites, pero perdió su propulsor: hoy intenta la atrapada más difícil de su historia",
     "resumen": "El vuelo 15 de Starship despegó el viernes 13 de noviembre desde Texas: la nave Ship 42 llegó a órbita y desplegó 26 satélites Starlink V3, pero el propulsor Super Heavy no pudo ser atrapado por la torre y explotó sobre el Golfo de México. Esta tarde, alrededor de las 5:17 PM hora de RD, la nave intentará la primera atrapada de una etapa superior en la historia.",
