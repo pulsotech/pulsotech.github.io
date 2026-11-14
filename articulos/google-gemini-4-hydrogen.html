@@ -24,6 +24,7 @@ html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.65;transition:background .4s ease,color .4s ease;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;height:auto;border-radius:12px}
+
 /* ---------- Cabecera ---------- */
 .pt-header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:var(--bg);border-bottom:1px solid var(--line)}
 .pt-header-inner{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
@@ -57,6 +58,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-main{max-width:1080px;margin:0 auto;padding:34px 20px 60px}
 .pt-searchnote{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin-bottom:24px;font-size:.95rem}
 .pt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+
 /* Titular destacado */
 .pt-hero{grid-column:1/-1;position:relative;border-radius:24px;padding:46px 42px;margin-bottom:30px;color:#fff;overflow:hidden;background:linear-gradient(120deg,#14161f,#3a2417,#5b2f16,#14161f);background-size:280% 280%;animation:pt-gradient 10s ease infinite;box-shadow:var(--shadow)}
 @keyframes pt-gradient{0%,100%{background-position:0% 40%}50%{background-position:100% 60%}}
@@ -106,6 +108,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 .pt-fuentes{font-size:.9rem;color:var(--muted)}
 .pt-back{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--accent);font-size:.9rem}
 .pt-back:hover{text-decoration:underline}
+
 /* ---------- Franja superior, tagline y confianza ---------- */
 .pt-topbar{background:var(--navy);color:#cfd3e0;font-size:.78rem}
 .pt-topbar-inner{max-width:1080px;margin:0 auto;padding:7px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
@@ -170,6 +173,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 </style>
 </head>
 <body>
+
 <!-- ================= FRANJA SUPERIOR ================= -->
 <div class="pt-topbar">
   <div class="pt-topbar-inner">
@@ -200,6 +204,7 @@ img{max-width:100%;height:auto;border-radius:12px}
     </div>
   </div>
 </header>
+
 <!-- ================= ARTÍCULO ================= -->
 <main class="pt-main">
   <article class="pt-article reveal in">
@@ -208,6 +213,7 @@ img{max-width:100%;height:auto;border-radius:12px}
     <h1>Google presenta Gemini 4 Hydrogen: su IA más rápida llega a todos, hasta al buscador</h1>
     <div class="pt-meta"><span>13 de noviembre de 2026</span><span>&#183; Redacción Pulso Tech</span></div>
     <div class="post-body">
+      <figure style="margin:0 0 22px"><img src="../img/google-gemini-4-hydrogen.jpg" alt="Google presenta Gemini 4 Hydrogen: su IA más rápida llega a todos, hasta al buscador" style="width:100%;border-radius:14px;display:block"><figcaption style="font-size:.82rem;opacity:.7;margin-top:8px">Imagen: Google (oficial), dominio público — Wikimedia Commons</figcaption></figure>
       <p>Google tiene un problema de abundancia: en apenas un mes presentó tres modelos nuevos de la familia Gemini 4. Primero llegaron Carbon, el cerebro pesado pensado para la ciberseguridad, y Argon, el de razonamiento profundo. Ayer, jueves 12 de noviembre, se sumó el tercer hermano: <strong>Gemini 4 Hydrogen</strong>. Y este no viene a ser el más listo de la familia, sino el más rápido: el modelo que Google quiere que uses todos los días, cada vez que buscas algo, programas o le pides a un agente de IA que haga una tarea por ti.</p>
 
       <h2>¿Qué es Hydrogen y para qué sirve?</h2>
@@ -216,6 +222,7 @@ img{max-width:100%;height:auto;border-radius:12px}
       <h2>¿De verdad es tan rápido?</h2>
       <p>El dato que Google repite es que Hydrogen completa las tareas <strong>2,5 veces más rápido que Gemini 3.8 Flash</strong>, el modelo al que reemplaza, en su configuración de razonamiento alta por defecto. Y hay un número que ilustra el salto: en Terminal-Bench 4.1, una prueba que mide la capacidad de resolver tareas reales de programación desde la terminal, Hydrogen alcanzó un <strong>57 % de éxito frente al 18,2 % de Flash</strong>.</p>
       <p>También hay una sorpresa: en el Artificial Analysis Intelligence Index, el ranking independiente que compara modelos, Hydrogen supera incluso a Argon, su hermano mayor, con 51 puntos frente a 50 en la configuración estándar, y llega a 54 en su nivel de razonamiento más alto. Google ofrece cuatro niveles de razonamiento —bajo, medio, alto y extra alto— para ajustar el equilibrio entre velocidad y profundidad. Y otro dato que la empresa destaca: Hydrogen reduce en más de cinco veces las afirmaciones inventadas respecto a Flash, ese problema de las IA que responden con total seguridad algo que no es verdad.</p>
+
       <h2>¿Cuánto cuesta y dónde se usa?</h2>
       <p>En la API de Gemini, Hydrogen cuesta <strong>1,50 dólares por millón de tokens de entrada y 7,50 por millón de salida</strong>, con una tarifa plana en toda su ventana de contexto de un millón de tokens. Acepta texto, imágenes, audio y video, y su conocimiento llega hasta marzo de 2026. Para los desarrolladores hay además un nivel gratuito con límites en la API y en Google AI Studio.</p>
       <p>Pero lo más importante para el usuario común es dónde aparece sin que tenga que hacer nada: <strong>en el buscador de Google, para todos</strong>. Hydrogen ya es el modelo que responde en el modo de IA y en las respuestas generadas de la búsqueda, y en la app de Gemini la selección automática lo pone a trabajar cuando la tarea lo pide. También está en Google AI Studio, la API de Gemini, Gemini for business y Google Antigravity para los suscriptores de los planes Pro y Ultra. El despliegue es global, aunque puede tardar horas o días en activarse en cada cuenta.</p>
@@ -245,6 +252,7 @@ img{max-width:100%;height:auto;border-radius:12px}
     <div class="pt-labels" style="margin-top:26px"><span class="pt-chip">Inteligencia artificial</span></div>
   </article>
 </main>
+
 <!-- ================= FRANJA DE CONFIANZA ================= -->
 <div class="pt-trust">
   <div class="pt-trust-inner">
@@ -283,6 +291,7 @@ img{max-width:100%;height:auto;border-radius:12px}
     <p class="pt-small">Pulso Tech &#183; Noticias de tecnología verificadas &#183; &#169; 2026 Pulso Tech</p>
   </div>
 </footer>
+
 <!-- ================= MASCOTA PUCKY ================= -->
 <div class="pt-bubble" id="pt-bubble">Hola, soy Pucky. Toca para saludar.</div>
 <div class="pt-mascot" id="pt-mascot" title="Pucky">
@@ -324,6 +333,7 @@ img{max-width:100%;height:auto;border-radius:12px}
   </g>
 </svg>
 </div>
+
 <script>
 (function(){
   var root=document.documentElement;
