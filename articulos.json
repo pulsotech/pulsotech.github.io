@@ -5,7 +5,8 @@
     "resumen": "El vuelo 15 de Starship despegó el viernes 13 de noviembre desde Texas: la nave Ship 42 llegó a órbita y desplegó 26 satélites Starlink V3, pero el propulsor Super Heavy no pudo ser atrapado por la torre y explotó sobre el Golfo de México. Esta tarde, alrededor de las 5:17 PM hora de RD, la nave intentará la primera atrapada de una etapa superior en la historia.",
     "categoria": "Espacio",
     "fecha": "2026-11-14",
-    "url": "articulos/starship-vuelo-15-atrapa-nave-torre.html"
+    "url": "articulos/starship-vuelo-15-atrapa-nave-torre.html",
+    "imagen": "starship-vuelo-15-atrapa-nave-torre.jpg"
   },
   {
     "slug": "chatgpt-wallet-agentes-compran-por-ti",
@@ -13,7 +14,8 @@
     "resumen": "OpenAI lanzó el 13 de noviembre ChatGPT Wallet: sus agentes «dots» ya pueden completar compras por el usuario, con aprobación biométrica en cada pago y sin ver nunca los datos reales de la tarjeta. Por ahora, solo para suscriptores Pro en Estados Unidos.",
     "categoria": "Inteligencia artificial",
     "fecha": "2026-11-14",
-    "url": "articulos/chatgpt-wallet-agentes-compran-por-ti.html"
+    "url": "articulos/chatgpt-wallet-agentes-compran-por-ti.html",
+    "imagen": "chatgpt-wallet-agentes-compran-por-ti.jpg"
   },
   {
     "slug": "google-gemini-4-hydrogen",
@@ -21,7 +23,8 @@
     "resumen": "Google presentó el 12 de noviembre Gemini 4 Hydrogen, el modelo rápido de la familia Gemini 4: según Google, termina las tareas 2,5 veces más rápido que Gemini 3.8 Flash y ya está disponible para todos en el buscador, la app de Gemini y las herramientas para desarrolladores.",
     "categoria": "Inteligencia artificial",
     "fecha": "2026-11-13",
-    "url": "articulos/google-gemini-4-hydrogen.html"
+    "url": "articulos/google-gemini-4-hydrogen.html",
+    "imagen": "google-gemini-4-hydrogen.jpg"
   },
   {
     "slug": "anthropic-ipo-nasdaq-ant",
@@ -29,7 +32,8 @@
     "resumen": "Anthropic, la empresa detrás del asistente de IA Claude, lanzó el 10 de noviembre su salida a bolsa: 825 millones de acciones a entre 70 y 78 dólares, con el símbolo ANT en el Nasdaq. La demanda superó la oferta en el primer día y el debut en bolsa se espera para el 19 de noviembre.",
     "categoria": "Inteligencia artificial",
     "fecha": "2026-11-13",
-    "url": "articulos/anthropic-ipo-nasdaq-ant.html"
+    "url": "articulos/anthropic-ipo-nasdaq-ant.html",
+    "imagen": "anthropic-ipo-nasdaq-ant.jpg"
   },
   {
     "slug": "jensen-huang-renuncia-nvidia-colette-kress",
@@ -37,7 +41,8 @@
     "resumen": "Nvidia anunció el jueves 12 de noviembre que Jensen Huang renunció con efecto inmediato tras 33 años al frente de la empresa que cofundó en 1993. La directora financiera Colette Kress asume como CEO interina mientras la junta busca un sucesor.",
     "categoria": "Inteligencia artificial",
     "fecha": "2026-11-13",
-    "url": "articulos/jensen-huang-renuncia-nvidia-colette-kress.html"
+    "url": "articulos/jensen-huang-renuncia-nvidia-colette-kress.html",
+    "imagen": "jensen-huang-renuncia-nvidia-colette-kress.jpg"
   },
   {
     "slug": "microsoft-365-caida-global-outlook",
@@ -45,7 +50,8 @@
     "resumen": "Desde la tarde del jueves 12 de noviembre, Outlook, Teams, Copilot y unas veinte herramientas de Microsoft 365 fallan en todo el mundo por un problema en Exchange Online. Microsoft ya aplica un parche y descarta un ciberataque, pero todavía no hay hora confirmada para el regreso total del servicio.",
     "categoria": "Tecnología",
     "fecha": "2026-11-13",
-    "url": "articulos/microsoft-365-caida-global-outlook.html"
+    "url": "articulos/microsoft-365-caida-global-outlook.html",
+    "imagen": "microsoft-365-caida-global-outlook.jpg"
   },
   {
     "slug": "claude-fable-5-2-anthropic",
@@ -53,7 +59,8 @@
     "resumen": "Anthropic lanzó el 9 de noviembre Claude Fable 5.2 y Mythos 5.2: el mismo modelo en dos versiones, hasta un 30 % más rápido y un 20 % más barato que su predecesor. En pruebas de la empresa resolvió el 41,3 % de tareas reales de nivel experto, y un ejército de mil agentes suyos demostró un teorema matemático en 30 horas.",
     "categoria": "Inteligencia artificial",
     "fecha": "2026-11-12",
-    "url": "articulos/claude-fable-5-2-anthropic.html"
+    "url": "articulos/claude-fable-5-2-anthropic.html",
+    "imagen": "claude-fable-5-2-anthropic.jpg"
   },
   {
     "slug": "google-pixel-tag-localizador-android",
@@ -61,7 +68,8 @@
     "resumen": "El Pixel Tag, el primer localizador de Google, sale a la venta hoy 11 de noviembre por 29,99 dólares: usa la red Find Hub de más de mil millones de Android, banda ultraancha para localizar con precisión y una pila que dura más de un año. Solo hay un detalle: no sirve con iPhone.",
     "categoria": "Gadgets",
     "fecha": "2026-11-11",
-    "url": "articulos/google-pixel-tag-localizador-android.html"
+    "url": "articulos/google-pixel-tag-localizador-android.html",
+    "imagen": "google-pixel-tag-localizador-android.jpg"
   },
   {
     "slug": "web-summit-2026-robots-coche-volador",
