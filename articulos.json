@@ -1,5 +1,14 @@
 [
   {
+    "slug": "ula-vulcan-amazon-leo-falla",
+    "titulo": "El cohete Vulcan de ULA falló en pleno vuelo y se perdieron 40 satélites de internet de Amazon",
+    "resumen": "El Vulcan de United Launch Alliance sufrió una anomalía a los 10 minutos del despegue y no pudo poner en órbita 40 satélites de Amazon Leo: es el primer fracaso total de ULA en 20 años y un golpe para el rival de Starlink.",
+    "categoria": "Espacio",
+    "fecha": "2026-11-15",
+    "url": "articulos/ula-vulcan-amazon-leo-falla.html",
+    "imagen": "ula-vulcan-amazon-leo-falla.jpg"
+  },
+  {
     "slug": "chatgpt-retira-voces-advanced-standard-gpt-live",
     "titulo": "ChatGPT jubila dos de sus voces: desde el 11 de diciembre solo quedará GPT-Live",
     "resumen": "OpenAI anunció que los modos de voz Advanced y Standard de ChatGPT desaparecerán el 11 de diciembre de 2026 y que todos los usuarios pasarán automáticamente a GPT-Live, que escucha y habla al mismo tiempo. Las conversaciones se conservan, pero el vídeo en directo y compartir pantalla seguirán con la tecnología antigua por ahora.",
