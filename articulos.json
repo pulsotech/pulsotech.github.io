@@ -1,5 +1,14 @@
 [
   {
+    "slug": "binance-hackeo-6300-millones",
+    "titulo": "Binance ya repuso los US$6.300 millones del mayor robo cripto de la historia",
+    "resumen": "El 12 de noviembre Binance anunció que cubrió con fondos propios todos los activos robados el 29 de octubre en el mayor hackeo de criptomonedas jamás registrado, atribuido por el FBI a hackers de Corea del Norte. Los saldos de los clientes quedan intactos, aunque las monedas robadas siguen en manos de los atacantes y la prueba que permitiría verificar el respaldo 1:1 aún no está lista.",
+    "categoria": "Ciberseguridad",
+    "fecha": "2026-11-15",
+    "url": "articulos/binance-hackeo-6300-millones.html",
+    "imagen": "binance-hackeo-6300-millones.jpg"
+  },
+  {
     "slug": "faa-paro-nacional-vuelos",
     "titulo": "EE. UU. dejó en tierra todos sus vuelos por un cable de cobre: así colapsó el control aéreo",
     "resumen": "El viernes 13 de noviembre, la FAA ordenó parar todos los despegues de Estados Unidos durante más de cuatro horas: una falla de telecomunicaciones en los centros de control aéreo, con routers de los años 80 sobrecargados de datos, dejó más de 10.000 vuelos retrasados. No fue un ciberataque: fue tecnología vieja.",
