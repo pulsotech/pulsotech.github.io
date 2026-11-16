@@ -1,5 +1,14 @@
 [
   {
+    "slug": "lovable-apps-datos-expuestos",
+    "titulo": "Miles de apps creadas con IA dejan tus datos a la vista: pasaportes, correos y 200.000 chats sin contraseña",
+    "resumen": "Un estudio de la firma de seguridad Crissy Field revisó 159.041 aplicaciones creadas con Lovable y encontró que miles de ellas dejaban leer datos personales sin iniciar sesión: pasaportes, correos y más de 200.000 mensajes de chat. No fue un hackeo: la puerta estaba abierta por defecto.",
+    "categoria": "Ciberseguridad",
+    "fecha": "2026-11-16",
+    "url": "articulos/lovable-apps-datos-expuestos.html",
+    "imagen": "lovable-apps-datos-expuestos.jpg"
+  },
+  {
     "slug": "ula-vulcan-amazon-leo-falla",
     "titulo": "El cohete Vulcan de ULA falló en pleno vuelo y se perdieron 40 satélites de internet de Amazon",
     "resumen": "El Vulcan de United Launch Alliance sufrió una anomalía a los 10 minutos del despegue y no pudo poner en órbita 40 satélites de Amazon Leo: es el primer fracaso total de ULA en 20 años y un golpe para el rival de Starlink.",
