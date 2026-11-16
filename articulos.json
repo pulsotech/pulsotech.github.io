@@ -299,5 +299,14 @@
     "categoria": "Inteligencia artificial",
     "fecha": "2026-10-31",
     "url": "articulos/wall-street-factura-fiesta-ia.html"
+  },
+  {
+    "slug": "cursor-clave-robada-fireworks",
+    "titulo": "Una clave robada en Fireworks abrió la puerta a una extensión maliciosa en Cursor: hasta 5.000 programadores en riesgo",
+    "resumen": "Cursor reveló que el ataque empezó con una clave que le había dado a Fireworks AI: el atacante copió registros de sesiones, robó credenciales y coló una versión maliciosa de la extensión Claude Code en su mercado durante 11 horas. Como máximo, 5.000 usuarios pudieron recibirla.",
+    "categoria": "Ciberseguridad",
+    "fecha": "2026-11-16",
+    "url": "articulos/cursor-clave-robada-fireworks.html",
+    "imagen": "cursor-clave-robada-fireworks.jpg"
   }
 ]
